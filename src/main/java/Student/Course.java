@@ -27,7 +27,7 @@ public class Course {
     public String getCourse(){
       return this.course;  
     }
-    public Object[] getModules(){
+    public Module[] getModules(){
       return this.modules;  
     }
     public Object getsDate(){

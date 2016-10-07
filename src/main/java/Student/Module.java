@@ -27,7 +27,7 @@ public class Module {
       public String getID(){
         return this.ID;
     }
-        public Object[] getStudents(){
+        public Student[] getStudents(){
         return this.Students;
     }
         
