@@ -23,5 +23,31 @@ public class Course {
         this.startDate = sD;
         this.endDate = eD;
     }
+    //Getters
+    public String getCourse(){
+      return this.course;  
+    }
+    public Object[] getModules(){
+      return this.modules;  
+    }
+    public Object getsDate(){
+      return this.startDate;  
+    }
+    public Object geteDate(){
+      return this.endDate;  
+    }
+    //Setters
+    public void setCourse(String s){
+      this.course = s;  
+    }
+    public void setModules(Module[] m ){
+       this.modules = m;  
+    }
+    public void setsDate(DateTime t ){
+      this.startDate = t;  
+    }
+    public void seteDate(DateTime t){
+      this.endDate = t;  
+    }
     
 }

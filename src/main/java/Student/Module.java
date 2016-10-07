@@ -19,4 +19,26 @@ public class Module {
         this.ID = ID;
         this.Students = Students; 
     }
+    
+    //Getters
+    public String getmName(){
+        return this.mname;
+    }
+      public String getID(){
+        return this.ID;
+    }
+        public Object[] getStudents(){
+        return this.Students;
+    }
+        
+    //Setters
+        public void setmName(String n){
+        this.mname = n;
+    }
+      public void setID(String i ){
+        this.ID = i;
+    }
+        public void setStudents(Student[] s){
+        this.Students = s;
+    }
 }
